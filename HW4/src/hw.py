@@ -1,0 +1,3 @@
+i_completed_hello_github_actions_tutorial = True
+i_completed_hello_test_with_actions = True
+i_completed_my_demo_dashboard_website__hw_part2 = True

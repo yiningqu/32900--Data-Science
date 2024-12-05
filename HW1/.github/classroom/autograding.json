@@ -1,0 +1,144 @@
+{
+  "tests": [
+    {
+      "name": "test_exercise_01.py::test_series_from_ofr_api",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "pytest test_exercise_01.py::test_pull_fred_repo_data__transforms",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test_exercise_01.py::test_series_descriptions",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "pytest test_exercise_01.py::test_series_descriptions",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test_exercise_01.py::test_pull_fred_repo_data__shape",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "pytest test_exercise_01.py::test_pull_fred_repo_data__shape",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test_exercise_01.py::test_pull_fred_repo_data__nans",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "pytest test_exercise_01.py::test_pull_fred_repo_data__nans",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test_exercise_02.py::test_series_from_ofr_api",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "pytest test_exercise_02.py::test_series_from_ofr_api",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test_exercise_02.py::test_series_descriptions",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "pytest test_exercise_02.py::test_series_descriptions",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test_exercise_02.py::test_pull_repo_data__shape",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "pytest test_exercise_02.py::test_pull_repo_data__shape",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test_exercise_03.py::test_series_descriptions",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "pytest test_exercise_03.py::test_series_descriptions",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test_exercise_03.py::test_load_all",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "pytest test_exercise_03.py::test_load_all",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test_exercise_04.py::test_kahn_et_al_2023_figure_1",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "pytest test_exercise_04.py::test_kahn_et_al_2023_figure_1",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test_exercise_04.py::test_spike_days",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "pytest test_exercise_04.py::test_spike_days",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test_exercise_05.py::test_introduction_to_github",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "pytest test_exercise_05.py::test_introduction_to_github",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test_exercise_05.py::test_communicate_using_markdown",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_exercise_05.py::test_communicate_using_markdown",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test_exercise_05.py::test_github_pages",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_exercise_05.py::test_github_pages",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
